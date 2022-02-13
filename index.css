@@ -499,7 +499,7 @@ body {
         background-color: black;
         text-align: center;
         width: 100%;
-        height: 250px;
+        height: 410px;
         margin-bottom: 30px;
         box-shadow: 0 2px 0 black;
     }
@@ -550,6 +550,7 @@ body {
 
     .txt-img {
         display: flex;
+        flex-direction: column;
     }
 
     .btn-link {
@@ -572,15 +573,17 @@ body {
     }
 
     .txt-about {
-        font-size: 8px;
+        font-size: 12px;
         text-align: justify;
-        margin-left: 5%;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
         color: white;
     }
 
     .img-about {
         width: 40%;
-        margin-left: 3%;
+        margin-left: 30%;
     }
 
     .logo-project {
